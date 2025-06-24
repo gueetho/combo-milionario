@@ -2,113 +2,58 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Combo Milionário - Oferta Limitada</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      background-color: #f7f7f7;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      border-radius: 12px;
-      margin-top: 40px;
-    }
-    h1 {
-      color: #111;
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    h2 {
-      color: #555;
-      font-weight: 400;
-      font-size: 18px;
-      margin-bottom: 20px;
-    }
-    .mockup {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    .benefits {
-      background: #e6f7ff;
-      padding: 15px;
-      border-left: 5px solid #0077cc;
-      border-radius: 8px;
-      margin-bottom: 20px;
-    }
-    .benefits li {
-      margin-bottom: 8px;
-    }
-    .cta {
-      background: #ff6600;
-      color: white;
-      text-align: center;
-      font-size: 20px;
-      padding: 15px;
-      border-radius: 8px;
-      text-decoration: none;
-      display: block;
-      margin-bottom: 25px;
-      font-weight: 600;
-    }
-    .cta:hover {
-      background: #e65c00;
-    }
-    .garantia, .seguranca {
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 20px;
-    }
-    .selos {
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      gap: 20px;
-      flex-wrap: wrap;
-    }
-    .selos img {
-      height: 40px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Combo Milionário | 4 Livros Essenciais</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>🔥 Combo Milionário: 4 Livros Que Mudam Vidas</h1>
-    <h2>Garanta hoje o acesso aos 4 livros digitais mais lidos por quem busca liberdade financeira.</h2>
-
-    <img class="mockup" src="https://i.imgur.com/Y7f0edW.png" alt="Pack de livros digitais" />
-
-    <ul class="benefits">
-      <li>✔️ Acesso imediato por e-mail</li>
-      <li>✔️ PDF compatível com celular, tablet e computador</li>
-      <li>✔️ Leitura simples, direta e transformadora</li>
-      <li>✔️ 4 títulos essenciais num só pacote</li>
-    </ul>
-
-    <a class="cta" href="https://pay.cakto.com.br/3rjpquf_447757" target="_blank">🔒 Comprar Agora por R$ 9,90</a>
-
-    <div class="garantia">
-      ✅ Garantia de satisfação: se não gostar, seu dinheiro de volta em até 7 dias!
+  <header>
+    <div class="container">
+      <h1>🔥 Combo Milionário</h1>
+      <p>Os 4 livros digitais que mudaram a mente de milhares. Agora por apenas <strong>R$9,90</strong>.</p>
     </div>
+  </header>
 
-    <div class="seguranca">
-      🔐 Pagamento 100% seguro via Cakto. Suporte disponível pelo WhatsApp após a compra.
+  <section class="livros">
+    <div class="container">
+      <h2>O que você vai receber:</h2>
+      <div class="grid-livros">
+        <div class="livro">
+          <img src="https://i.imgur.com/IuEVQ8b.png" alt="Pai Rico Pai Pobre">
+          <h3>Pai Rico, Pai Pobre</h3>
+        </div>
+        <div class="livro">
+          <img src="https://i.imgur.com/k0t9hs4.png" alt="Segredos da Mente Milionária">
+          <h3>Os Segredos da Mente Milionária</h3>
+        </div>
+        <div class="livro">
+          <img src="https://i.imgur.com/EpOGNSh.png" alt="Como Convencer em 90 Segundos">
+          <h3>Como Convencer Alguém em 90 Segundos</h3>
+        </div>
+        <div class="livro">
+          <img src="https://i.imgur.com/FSLBUNe.png" alt="Os Códigos do Milhão">
+          <h3>Os Códigos do Milhão</h3>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <div class="selos">
-      <img src="https://i.imgur.com/2hDwqwl.png" alt="Pix" />
-      <img src="https://i.imgur.com/bHKsOEx.png" alt="Cartão de crédito" />
-      <img src="https://i.imgur.com/6N1QL9u.png" alt="Cakto segurança" />
+  <section class="oferta">
+    <div class="container">
+      <h2>Oferta por tempo limitado!</h2>
+      <div id="countdown"></div>
+      <a class="btn-comprar" href="https://pay.cakto.com.br/3rjpquf_447757" target="_blank">💰 Quero o Combo por R$ 9,90</a>
+      <p class="seguro">Pagamento 100% seguro via Cakto</p>
     </div>
-  </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Combo Milionário | Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+  <a href="https://pay.cakto.com.br/3rjpquf_447757" target="_blank" class="floating-btn">Comprar Agora</a>
+  <script src="script.js"></script>
 </body>
 </html>
